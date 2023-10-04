@@ -1,0 +1,32 @@
+body{
+    background-image: url('cardio bed.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-div{
+    display: flex;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: navy;
+    padding: 5px
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+
+.links a:hover {
+    background-color: aqua;
+    color: black;
+}
